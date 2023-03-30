@@ -180,3 +180,9 @@ struct는 멤버 변수만 있는 것임
 ex) fill(b[0],b[3],7) --> b[0]부터b[3]까지 7으로 다 채움
   	fill_n(b[0],15,7) --> b[0]의 칸에 15자리를 7로 다 채움
 
+min_element(begin, end)와 max_element(begin, end) 함수는 인자로 전달된 배열의 begin부터 end까지의 요소들 중에 최소, 최대 값을 찾습니다.
+
+함수는 최대, 최소 값에 해당하는 객체 주소를 리턴하기 때문에, *을 사용하여 value를 읽어야 합니다.
+ex)
+int* max = max_element(&Mul[0][0], &Mul[0][0] + 9 * 9);
+	cout << *max << endl;  --> 9곱9의 배열에서 최댓값 찾기 최솟값은 min_element ""
