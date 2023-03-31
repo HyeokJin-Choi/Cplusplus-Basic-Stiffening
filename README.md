@@ -185,4 +185,4 @@ min_element(begin, end)와 max_element(begin, end) 함수는 인자로 전달된
 함수는 최대, 최소 값에 해당하는 객체 주소를 리턴하기 때문에, *을 사용하여 value를 읽어야 합니다.
 ex)
 int* max = max_element(&Mul[0][0], &Mul[0][0] + 9 * 9);
-	cout << *max << endl;  --> 9곱9의 배열에서 최댓값 찾기 최솟값은 min_element ""
+	cout << *max << endl;  --> 9곱9의 배열에서 최댓값 찾기 최솟값은 min_element " "
