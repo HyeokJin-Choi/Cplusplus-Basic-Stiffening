@@ -186,3 +186,6 @@ min_element(begin, end)와 max_element(begin, end) 함수는 인자로 전달된
 ex)
 int* max = max_element(&Mul[0][0], &Mul[0][0] + 9 * 9);
 	cout << *max << endl;  --> 9곱 9의 배열에서 최댓값 찾기 최솟값은 min_element " "
+
+//cin, cout 명령어 실행 속도 
+cin.tie(0); ios_base::sync_with_stdio(false); cout.tie(0);
